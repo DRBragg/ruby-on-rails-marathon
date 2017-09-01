@@ -1,16 +1,16 @@
 require 'rails_helper'
 
 feature "Visitor views a list of projects at the /group_projects/:id page" do
-  cohort_a = Cohort.first
-  cohort_b = Cohort.find(2)
-  student_a = Student.first
-  student_b = Student.find(2)
-  mentor_a = Mentor.first
-  mentor_b = Mentor.find(2)
-  group_project_a = GroupProject.first
-  group_project_b = GroupProject.find(2)
-  task_a = Task.first
-  task_b = Task.find(2)
+  # cohort_a = Cohort.first
+  # cohort_b = Cohort.find(2)
+  # student_a = Student.first
+  # student_b = Student.find(2)
+  # mentor_a = Mentor.first
+  # mentor_b = Mentor.find(2)
+  # group_project_a = GroupProject.first
+  # group_project_b = GroupProject.find(2)
+  # task_a = Task.first
+  # task_b = Task.find(2)
   context "by visiting /tasks/:id url" do
 
     before do
